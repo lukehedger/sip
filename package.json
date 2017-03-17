@@ -1,0 +1,42 @@
+{
+  "name": "sip-css",
+  "version": "0.0.2",
+  "description": "truly reusable styles",
+  "main": "dist/sip.js",
+  "module": "dist/sip.mjs",
+  "jsnext:main": "dist/sip.mjs",
+  "repository": {
+    "url": "https://github.com/lukehedger/sip.git",
+    "type": "git"
+  },
+  "author": "Luke Hedger <level-out.com>",
+  "license": "Apache-2.0",
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote --trailing-comma=es5",
+      "git add"
+    ]
+  },
+  "pre-commit": {
+    "run": [
+      "lint:staged"
+    ],
+    "silent": true
+  },
+  "scripts": {
+    "lint:staged": "lint-staged",
+    "build": "rollup -c",
+    "pretest": "yarn build",
+    "test": "node test | faucet"
+  },
+  "devDependencies": {
+    "buble": "^0.15.2",
+    "faucet": "^0.0.1",
+    "lint-staged": "^3.4.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^0.22.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-buble": "^0.15.0",
+    "tape": "^4.6.3"
+  }
+}
