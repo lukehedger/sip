@@ -2,4 +2,4 @@
 
 ## Examples
 
-- [React inline styles](inline/)
+- [React inline styles](react-inline/)
