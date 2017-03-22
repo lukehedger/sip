@@ -42,10 +42,12 @@ CSS at scale === 😫. And scoping your styles to components isn't enough. You s
 - Designed to work with a central set of reusable, presentational components
 - Enables any level of application logic refactoring without losing design! And vice-versa.
 
+[Take a look at the examples](examples/)
+
 ## Roadmap
 
 - [x] Tests
-- [ ] Examples
+- [x] Examples
 - [ ] Support media queries
 - [ ] Add camelCase output option
 
