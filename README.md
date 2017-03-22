@@ -42,7 +42,7 @@ CSS at scale === 😫. And scoping your styles to components isn't enough. You s
 
 ## Roadmap
 
-- [ ] Tests
+- [x] Tests
 - [ ] Examples
 - [ ] Support media queries
 - [ ] Add camelCase output option
