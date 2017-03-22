@@ -2,6 +2,8 @@
 
 > Small sips of CSS
 
+- [Try Sip out on RunKit](https://runkit.com/lukehedger/58d2583741f5d300146c47ed)
+
 ## Install
 
 ```
