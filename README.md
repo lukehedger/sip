@@ -5,7 +5,7 @@
 ## Install
 
 ```
-yarn add sip-css
+yarn add sip.css
 ```
 
 ## Sip?
@@ -22,7 +22,7 @@ This can be used on components:
 
 And processed with any CSS-in-JS implementation or simple inline styles:
 ```
-import Sip from 'sip-css'
+import Sip from 'sip.css'
 
 const Component = ({ sip }) => <div style={{ ...Sip(sip) }} />
 ```

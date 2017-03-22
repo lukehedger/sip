@@ -1,7 +1,7 @@
 {
-  "name": "sip-css",
-  "version": "0.0.3",
-  "description": "truly reusable styles",
+  "name": "sip.css",
+  "version": "0.0.2",
+  "description": "A CSS-in-JS utility for creating Atomic styles",
   "main": "dist/sip.js",
   "module": "dist/sip.mjs",
   "jsnext:main": "dist/sip.mjs",
@@ -9,6 +9,11 @@
     "url": "https://github.com/lukehedger/sip.git",
     "type": "git"
   },
+  "keywords": [
+    "atomic",
+    "css",
+    "sip"
+  ],
   "author": "Luke Hedger <level-out.com>",
   "license": "Apache-2.0",
   "lint-staged": {
