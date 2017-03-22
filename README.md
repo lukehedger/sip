@@ -44,13 +44,6 @@ CSS at scale === 😫. And scoping your styles to components isn't enough. You s
 
 [Take a look at the examples](examples/)
 
-## Roadmap
-
-- [x] Tests
-- [x] Examples
-- [ ] Support media queries
-- [ ] Add camelCase output option
-
 ## Contributing
 
 ### Setup
