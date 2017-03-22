@@ -1,8 +1,6 @@
-# Sip 🍹
-
-> Small sips of CSS
-
-- [Try Sip out on RunKit](https://runkit.com/lukehedger/58d2583741f5d300146c47ed)
+<p align='center'>
+  <img src='https://cloud.githubusercontent.com/assets/1913316/24197195/9ff384d4-0ef8-11e7-9243-180af29e9988.png' width='200'/>
+</p>
 
 ## Install
 
@@ -29,9 +27,13 @@ import Sip from 'sip-css'
 const Component = ({ sip }) => <div style={{ ...Sip(sip) }} />
 ```
 
+[Try Sip out on RunKit](https://runkit.com/lukehedger/58d2583741f5d300146c47ed)
+
 ## Paradigm
 
 CSS at scale === 😫. And scoping your styles to components isn't enough. You still end up with styles tightly coupled to logic. By enforcing an architecture that exposes only a minimal set of presentational components this coupling disappears. These primitive components (Button, Text, View and co) can then be fine-tuned when used by other functional components. `Sip` enables this through the use of atomic-like styles.
+
+[Read the origin story on Medium!](https://medium.com/@level_out/truly-reusable-css-f9399e66d40a)
 
 ## Refreshment
 
