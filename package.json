@@ -1,6 +1,6 @@
 {
   "name": "sip-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "truly reusable styles",
   "main": "dist/sip.js",
   "module": "dist/sip.mjs",
