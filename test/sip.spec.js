@@ -2,8 +2,8 @@ const test = require('tape');
 const sip = require('../dist/sip');
 
 test('Sip:AlignItems - Sip `align-items` output', t => {
-  const actual = { [`align-items`]: 'flex-end' };
-  const expected = sip({ ai: 'e' });
+  const actual = sip({ ai: 'e' });
+  const expected = { [`align-items`]: 'flex-end' };
 
   t.deepEqual(
     actual,
@@ -15,8 +15,8 @@ test('Sip:AlignItems - Sip `align-items` output', t => {
 });
 
 test('Sip:Bottom - Sip `bottom` output', t => {
-  const actual = { bottom: '16px' };
-  const expected = sip({ b: 4 });
+  const actual = sip({ b: 4 });
+  const expected = { bottom: '16px' };
 
   t.deepEqual(
     actual,
@@ -28,8 +28,8 @@ test('Sip:Bottom - Sip `bottom` output', t => {
 });
 
 test('Sip:Background - Sip `background` output', t => {
-  const actual = { background: 'transparent' };
-  const expected = sip({ bg: 't' });
+  const actual = sip({ bg: 't' });
+  const expected = { background: 'transparent' };
 
   t.deepEqual(
     actual,
@@ -41,8 +41,8 @@ test('Sip:Background - Sip `background` output', t => {
 });
 
 test('Sip:BorderWidth - Sip `border-width` output', t => {
-  const actual = { [`border-width`]: '1px' };
-  const expected = sip({ bw: 1 });
+  const actual = sip({ bw: 1 });
+  const expected = { [`border-width`]: '1px' };
 
   t.deepEqual(
     actual,
@@ -54,8 +54,8 @@ test('Sip:BorderWidth - Sip `border-width` output', t => {
 });
 
 test('Sip:BorderStyle - Sip `border-style` output', t => {
-  const actual = { [`border-style`]: 'dotted' };
-  const expected = sip({ bs: 'do' });
+  const actual = sip({ bs: 'do' });
+  const expected = { [`border-style`]: 'dotted' };
 
   t.deepEqual(
     actual,
@@ -67,8 +67,8 @@ test('Sip:BorderStyle - Sip `border-style` output', t => {
 });
 
 test('Sip:Cursor - Sip `cursor` output', t => {
-  const actual = { cursor: 'pointer' };
-  const expected = sip({ c: 'p' });
+  const actual = sip({ c: 'p' });
+  const expected = { cursor: 'pointer' };
 
   t.deepEqual(
     actual,
@@ -80,8 +80,8 @@ test('Sip:Cursor - Sip `cursor` output', t => {
 });
 
 test('Sip:Display - Sip `display` output', t => {
-  const actual = { display: 'flex' };
-  const expected = sip({ d: 'f' });
+  const actual = sip({ d: 'f' });
+  const expected = { display: 'flex' };
 
   t.deepEqual(
     actual,
@@ -93,8 +93,8 @@ test('Sip:Display - Sip `display` output', t => {
 });
 
 test('Sip:FlexDirection - Sip `flex-direction` output', t => {
-  const actual = { [`flex-direction`]: 'row' };
-  const expected = sip({ fd: 'r' });
+  const actual = sip({ fd: 'r' });
+  const expected = { [`flex-direction`]: 'row' };
 
   t.deepEqual(
     actual,
@@ -106,8 +106,8 @@ test('Sip:FlexDirection - Sip `flex-direction` output', t => {
 });
 
 test('Sip:FontSize - Sip `font-size` output', t => {
-  const actual = { [`font-size`]: '12px' };
-  const expected = sip({ fs: 3 });
+  const actual = sip({ fs: 3 });
+  const expected = { [`font-size`]: '12px' };
 
   t.deepEqual(
     actual,
@@ -119,8 +119,8 @@ test('Sip:FontSize - Sip `font-size` output', t => {
 });
 
 test('Sip:FontWeight - Sip `font-weight` output', t => {
-  const actual = { [`font-weight`]: '400' };
-  const expected = sip({ fw: 'n' });
+  const actual = sip({ fw: 'n' });
+  const expected = { [`font-weight`]: '400' };
 
   t.deepEqual(
     actual,
@@ -132,8 +132,8 @@ test('Sip:FontWeight - Sip `font-weight` output', t => {
 });
 
 test('Sip:Height - Sip `height` output', t => {
-  const actual = { height: '16px' };
-  const expected = sip({ h: 4 });
+  const actual = sip({ h: 4 });
+  const expected = { height: '16px' };
 
   t.deepEqual(
     actual,
@@ -145,8 +145,8 @@ test('Sip:Height - Sip `height` output', t => {
 });
 
 test('Sip:Left - Sip `left` output', t => {
-  const actual = { left: '16px' };
-  const expected = sip({ l: 4 });
+  const actual = sip({ l: 4 });
+  const expected = { left: '16px' };
 
   t.deepEqual(
     actual,
@@ -158,8 +158,8 @@ test('Sip:Left - Sip `left` output', t => {
 });
 
 test('Sip:LineHeight - Sip `line-height` output', t => {
-  const actual = { [`line-height`]: '16px' };
-  const expected = sip({ lh: 4 });
+  const actual = sip({ lh: 4 });
+  const expected = { [`line-height`]: '16px' };
 
   t.deepEqual(
     actual,
@@ -171,8 +171,8 @@ test('Sip:LineHeight - Sip `line-height` output', t => {
 });
 
 test('Sip:Margin - Sip `margin` output', t => {
-  const actual = { margin: '16px' };
-  const expected = sip({ m: 4 });
+  const actual = sip({ m: 4 });
+  const expected = { margin: '16px' };
 
   t.deepEqual(
     actual,
@@ -184,8 +184,8 @@ test('Sip:Margin - Sip `margin` output', t => {
 });
 
 test('Sip:MarginTop - Sip `margin-top` output', t => {
-  const actual = { [`margin-top`]: '16px' };
-  const expected = sip({ mt: 4 });
+  const actual = sip({ mt: 4 });
+  const expected = { [`margin-top`]: '16px' };
 
   t.deepEqual(
     actual,
@@ -197,8 +197,8 @@ test('Sip:MarginTop - Sip `margin-top` output', t => {
 });
 
 test('Sip:MarginRight - Sip `margin-right` output', t => {
-  const actual = { [`margin-right`]: '16px' };
-  const expected = sip({ mr: 4 });
+  const actual = sip({ mr: 4 });
+  const expected = { [`margin-right`]: '16px' };
 
   t.deepEqual(
     actual,
@@ -210,8 +210,8 @@ test('Sip:MarginRight - Sip `margin-right` output', t => {
 });
 
 test('Sip:MarginBottom - Sip `margin-bottom` output', t => {
-  const actual = { [`margin-bottom`]: '16px' };
-  const expected = sip({ mb: 4 });
+  const actual = sip({ mb: 4 });
+  const expected = { [`margin-bottom`]: '16px' };
 
   t.deepEqual(
     actual,
@@ -223,8 +223,8 @@ test('Sip:MarginBottom - Sip `margin-bottom` output', t => {
 });
 
 test('Sip:MarginLeft - Sip `margin-left` output', t => {
-  const actual = { [`margin-left`]: '16px' };
-  const expected = sip({ ml: 4 });
+  const actual = sip({ ml: 4 });
+  const expected = { [`margin-left`]: '16px' };
 
   t.deepEqual(
     actual,
@@ -236,8 +236,8 @@ test('Sip:MarginLeft - Sip `margin-left` output', t => {
 });
 
 test('Sip:Overflow - Sip `overflow` output', t => {
-  const actual = { overflow: 'hidden' };
-  const expected = sip({ o: 'h' });
+  const actual = sip({ o: 'h' });
+  const expected = { overflow: 'hidden' };
 
   t.deepEqual(
     actual,
@@ -249,8 +249,8 @@ test('Sip:Overflow - Sip `overflow` output', t => {
 });
 
 test('Sip:Padding - Sip `padding` output', t => {
-  const actual = { padding: '8px' };
-  const expected = sip({ p: 1 });
+  const actual = sip({ p: 1 });
+  const expected = { padding: '8px' };
 
   t.deepEqual(
     actual,
@@ -262,8 +262,8 @@ test('Sip:Padding - Sip `padding` output', t => {
 });
 
 test('Sip:PaddingTop - Sip `padding-top` output', t => {
-  const actual = { [`padding-top`]: '8px' };
-  const expected = sip({ pt: 1 });
+  const actual = sip({ pt: 1 });
+  const expected = { [`padding-top`]: '8px' };
 
   t.deepEqual(
     actual,
@@ -275,8 +275,8 @@ test('Sip:PaddingTop - Sip `padding-top` output', t => {
 });
 
 test('Sip:PaddingRight - Sip `padding-right` output', t => {
-  const actual = { [`padding-right`]: '8px' };
-  const expected = sip({ pr: 1 });
+  const actual = sip({ pr: 1 });
+  const expected = { [`padding-right`]: '8px' };
 
   t.deepEqual(
     actual,
@@ -288,8 +288,8 @@ test('Sip:PaddingRight - Sip `padding-right` output', t => {
 });
 
 test('Sip:PaddingBottom - Sip `padding-bottom` output', t => {
-  const actual = { [`padding-bottom`]: '8px' };
-  const expected = sip({ pb: 1 });
+  const actual = sip({ pb: 1 });
+  const expected = { [`padding-bottom`]: '8px' };
 
   t.deepEqual(
     actual,
@@ -301,8 +301,8 @@ test('Sip:PaddingBottom - Sip `padding-bottom` output', t => {
 });
 
 test('Sip:PaddingLeft - Sip `padding-left` output', t => {
-  const actual = { [`padding-left`]: '8px' };
-  const expected = sip({ pl: 1 });
+  const actual = sip({ pl: 1 });
+  const expected = { [`padding-left`]: '8px' };
 
   t.deepEqual(
     actual,
@@ -314,8 +314,8 @@ test('Sip:PaddingLeft - Sip `padding-left` output', t => {
 });
 
 test('Sip:PointerEvents - Sip `pointer-events` output', t => {
-  const actual = { [`pointer-events`]: 'none' };
-  const expected = sip({ pe: 'n' });
+  const actual = sip({ pe: 'n' });
+  const expected = { [`pointer-events`]: 'none' };
 
   t.deepEqual(
     actual,
@@ -327,8 +327,8 @@ test('Sip:PointerEvents - Sip `pointer-events` output', t => {
 });
 
 test('Sip:Position - Sip `position` output', t => {
-  const actual = { position: 'relative' };
-  const expected = sip({ po: 'r' });
+  const actual = sip({ po: 'r' });
+  const expected = { position: 'relative' };
 
   t.deepEqual(
     actual,
@@ -340,8 +340,8 @@ test('Sip:Position - Sip `position` output', t => {
 });
 
 test('Sip:Right - Sip `right` output', t => {
-  const actual = { right: '16px' };
-  const expected = sip({ r: 4 });
+  const actual = sip({ r: 4 });
+  const expected = { right: '16px' };
 
   t.deepEqual(
     actual,
@@ -353,8 +353,8 @@ test('Sip:Right - Sip `right` output', t => {
 });
 
 test('Sip:Top - Sip `top` output', t => {
-  const actual = { top: '16px' };
-  const expected = sip({ t: 4 });
+  const actual = sip({ t: 4 });
+  const expected = { top: '16px' };
 
   t.deepEqual(
     actual,
@@ -366,8 +366,8 @@ test('Sip:Top - Sip `top` output', t => {
 });
 
 test('Sip:TextAlign - Sip `text-align` output', t => {
-  const actual = { [`text-align`]: 'center' };
-  const expected = sip({ ta: 'c' });
+  const actual = sip({ ta: 'c' });
+  const expected = { [`text-align`]: 'center' };
 
   t.deepEqual(
     actual,
@@ -379,8 +379,8 @@ test('Sip:TextAlign - Sip `text-align` output', t => {
 });
 
 test('Sip:TextDecoration - Sip `text-decoration` output', t => {
-  const actual = { [`text-decoration`]: 'underline' };
-  const expected = sip({ td: 'u' });
+  const actual = sip({ td: 'u' });
+  const expected = { [`text-decoration`]: 'underline' };
 
   t.deepEqual(
     actual,
@@ -392,8 +392,8 @@ test('Sip:TextDecoration - Sip `text-decoration` output', t => {
 });
 
 test('Sip:TextOverflow - Sip `text-overflow` output', t => {
-  const actual = { [`text-overflow`]: 'ellipsis' };
-  const expected = sip({ to: 'e' });
+  const actual = sip({ to: 'e' });
+  const expected = { [`text-overflow`]: 'ellipsis' };
 
   t.deepEqual(
     actual,
@@ -405,8 +405,8 @@ test('Sip:TextOverflow - Sip `text-overflow` output', t => {
 });
 
 test('Sip:TextTransform - Sip `text-transform` output', t => {
-  const actual = { [`text-transform`]: 'uppercase' };
-  const expected = sip({ tt: 'u' });
+  const actual = sip({ tt: 'u' });
+  const expected = { [`text-transform`]: 'uppercase' };
 
   t.deepEqual(
     actual,
@@ -418,8 +418,8 @@ test('Sip:TextTransform - Sip `text-transform` output', t => {
 });
 
 test('Sip:VerticalAlign - Sip `vertical-align` output', t => {
-  const actual = { [`vertical-align`]: 'middle' };
-  const expected = sip({ va: 'm' });
+  const actual = sip({ va: 'm' });
+  const expected = { [`vertical-align`]: 'middle' };
 
   t.deepEqual(
     actual,
@@ -431,8 +431,8 @@ test('Sip:VerticalAlign - Sip `vertical-align` output', t => {
 });
 
 test('Sip:Width - Sip `width` output', t => {
-  const actual = { width: '256px' };
-  const expected = sip({ w: 15 });
+  const actual = sip({ w: 15 });
+  const expected = { width: '256px' };
 
   t.deepEqual(
     actual,
@@ -444,8 +444,8 @@ test('Sip:Width - Sip `width` output', t => {
 });
 
 test('Sip:WhiteSpace - Sip `white-space` output', t => {
-  const actual = { [`white-space`]: 'nowrap' };
-  const expected = sip({ ws: 'n' });
+  const actual = sip({ ws: 'n' });
+  const expected = { [`white-space`]: 'nowrap' };
 
   t.deepEqual(
     actual,
@@ -457,8 +457,8 @@ test('Sip:WhiteSpace - Sip `white-space` output', t => {
 });
 
 test('Sip:ZIndex - Sip `z-index` output', t => {
-  const actual = { [`z-index`]: 99 };
-  const expected = sip({ z: 99 });
+  const actual = sip({ z: 99 });
+  const expected = { [`z-index`]: 99 };
 
   t.deepEqual(
     actual,
