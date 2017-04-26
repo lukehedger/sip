@@ -1,5 +1,5 @@
 import React from 'react';
-import Sip from 'sip-css';
+import Sip from 'sip.css';
 
 const Component = ({ sip }) => <div style={Sip(sip)} />;
 
