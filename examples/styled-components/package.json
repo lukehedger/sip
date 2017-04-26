@@ -1,0 +1,29 @@
+{
+  "name": "sip-styled-components",
+  "version": "1.0.0",
+  "author": "Luke Hedger <level-out.com>",
+  "license": "Apache-2.0",
+  "babel": {
+    "presets": [
+      "latest",
+      "react",
+      "stage-3"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-latest": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-3": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sip.css": "latest",
+    "styled-components": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
