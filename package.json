@@ -1,6 +1,6 @@
 {
   "name": "sip.css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A CSS-in-JS utility for creating Atomic styles",
   "main": "dist/sip.js",
   "module": "dist/sip.mjs",

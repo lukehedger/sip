@@ -38,6 +38,7 @@ CSS at scale === 😫. And scoping your styles to components isn't enough. You s
 ## Refreshment
 
 - Framework-agnostic - just outputs CSS objects
+- Supports media queries - `sip={{ m:2, m@md: 4 }}`
 - Component library and style-guide compatible
 - Designed to work with a central set of reusable, presentational components
 - Enables any level of application logic refactoring without losing design! And vice-versa.
